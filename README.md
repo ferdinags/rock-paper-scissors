@@ -7,6 +7,8 @@ Demo live: https://ferdinags.github.io/rock-paper-scissors/
 # 📌 Deskripsi 
 Permainan klasik gunting-kertas-batu yang dibikin menggunakan JavaScript. Kamu bisa pilih salah satu: batu (✊), kertas (✋), atau gunting (✌️), lalu komputer bakal bereaksi. Menang, kalah atau seri — semua ditampilkan secara langsung.
 
+---
+
 ## 🚀 Fitur Utama
 1. Pilihan pemain: batu, kertas, atau gunting
 2. Komputer memilih secara acak
