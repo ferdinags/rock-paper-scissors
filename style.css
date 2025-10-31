@@ -1,0 +1,104 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Background & font */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #74ebd5, #acb6e5);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container */
+.container {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Title */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.subtitle {
+  font-size: 1rem;
+  margin-bottom: 25px;
+  color: #666;
+}
+
+/* Buttons */
+.choices {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.choices button {
+  flex: 1;
+  padding: 12px 0;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.3s;
+}
+
+.choices button:nth-child(1) {
+  background: #ff7675;
+  color: white;
+}
+.choices button:nth-child(1):hover {
+  background: #d63031;
+  transform: scale(1.05);
+}
+
+.choices button:nth-child(2) {
+  background: #55efc4;
+  color: #2d3436;
+}
+.choices button:nth-child(2):hover {
+  background: #00b894;
+  transform: scale(1.05);
+}
+
+.choices button:nth-child(3) {
+  background: #74b9ff;
+  color: white;
+}
+.choices button:nth-child(3):hover {
+  background: #0984e3;
+  transform: scale(1.05);
+}
+
+/* Result box */
+.result-box {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 15px;
+  background: #f1f2f6;
+  font-size: 1.1rem;
+  color: #2d3436;
+  line-height: 1.5;
+}
+
+/* Footer */
+.footer {
+  margin-top: 25px;
+  font-size: 0.85rem;
+  color: #888;
+  text-align: center;
+}
